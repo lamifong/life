@@ -1,6 +1,6 @@
 {
   "name": "life",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A colored, multiplayer Game of Life.",
   "license": "AGPL-3.0",
   "main": "src/app.js",

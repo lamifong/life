@@ -1,0 +1,12 @@
+table {
+    border: #e1e1e8 solid 1px;
+    margin: auto;
+}
+
+td {
+    background-color: #f7f7f9;
+    border-color: #f7f7f9;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+}

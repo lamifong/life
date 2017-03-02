@@ -3,18 +3,22 @@
   "version": "0.0.0",
   "description": "A colored, multiplayer Game of Life.",
   "license": "AGPL-3.0",
-  "main": "src/game.js",
+  "main": "src/app.js",
   "repository": {
       "type": "git",
       "url": "https://github.com/lamifong/life.git"
   },
   "scripts": {
-    "test": "./node_modules/.bin/jshint **/*.js && ./node_modules/.bin/eslint **/*.js && ./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/jshint public/js/*.js src/*.js test/*.js && ./node_modules/.bin/eslint public/js/*.js **/*.js && ./node_modules/.bin/mocha"
   },
   "dependencies": {
-    "color-space": "1.14.7"
+    "color-space": "1.14.7",
+    "express": "4.14.1",
+    "express-ws": "3.0.0"
   },
   "devDependencies": {
+    "chai": "3.5.0",
+    "chai-http": "3.0.0",
     "eslint": "3.16.1",
     "eslint-config-standard": "6.2.1",
     "eslint-plugin-promise": "3.4.2",

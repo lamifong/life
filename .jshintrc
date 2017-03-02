@@ -12,15 +12,22 @@
     "nonbsp": true,
     "nonew": true,
     "predef": [
+        "$",
+        "WebSocket",
+        "__dirname",
+        "before",
         "beforeEach",
         "describe",
+        "document",
         "it",
         "module",
-        "require"
+        "process",
+        "require",
+        "setInterval"
     ],
     "singleGroups": true,
     "strict": true,
     "undef": true,
-    "unused": "strict",
+    "unused": true,
     "varstmt": true
 }

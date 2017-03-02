@@ -5,6 +5,9 @@
         "promise"
     ],
     "globals": {
+        "$": false,
+        "WebSocket": false,
+        "before": false,
         "beforeEach": false,
         "describe": false,
         "it": false,

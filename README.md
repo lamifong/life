@@ -6,7 +6,7 @@ This is a multiplayer Game of Life with colored cells representing different pla
 
 ```bash
 $ npm install
-$ PORT=3000 node src/app.js
+$ npm start
 ```
 
 Once the server is up, players can navigate to `http://127.0.0.1:3000` (assuming localhost) to join the game.

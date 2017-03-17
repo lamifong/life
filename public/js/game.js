@@ -1,8 +1,14 @@
 $(document).ready(function () {
     "use strict";
 
-    const ws = new WebSocket("ws://" + document.location.host + document.location.pathname);
+    let ws;
     let color;
+
+    if (document.location.protocol === "https:") {
+        ws = new WebSocket("wss://" + document.location.host + document.location.pathname);
+    } else {
+        ws = new WebSocket("ws://" + document.location.host + document.location.pathname);
+    }
 
     const initialize = function (newColor) {
         color = newColor;
